@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SushiFood</title>
+    <link rel="stylesheet" href="styless.css">
+    <script src="https://kit.fontawesome.com/086c433d82.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <!--Header-->
+    <div class="logo">
+      <img src="img/logo.png" alt="logo">
+      <span class="logo-text">SushiFood</span>
+    </div>
+    
+    <div class="header-right">
+      <nav class="nav">
+          <ul>
+              <li><a href="#home">Trang Chủ</a></li>
+              <li><a href="#featured-food">Nổi bật</a></li>
+              <li><a href="#menu">Thực đơn</a></li>
+              <li><a href="#introduce">Giới thiệu</a></li>
+              <li><a href="#blog">Tin tức</a></li>
+              <li><a href="#contact">Liên hệ</a></li>
+          </ul>
+      </nav>
+    </div>
+
+    <div class="search-cart">
+        <input type="text" id="search" placeholder="Tìm kiếm món ăn...">
+        <i class="material-icons">search</i>
+        <i class="material-symbols-outlined">shopping_bag</i>
+    </div>
+  </header>
+
+  <!--Hero-->
+  <section class="hero">
+    <h1>Ẩm thực Nhật Bản tinh túy</h1>
+    <p>Khám phá hương vị độc đáo và tinh tế của ẩm thực Nhật Bản với SushiFood.</p>
+    <a href="#menu" class="btn">Khám Phá Ngay</a>
+  </section>
+
+  <!--Featured Food-->
+  <section id="featured-food" class="featured-food">
+    <h2>Món ăn nổi bật</h2>
+    <div class="food-grid">
+      
+      <div class="food-card">
+        <img src="img/ShabuShabu.jpg" alt="Shabu Shabu">
+        <span class="discount">-10%</span>
+        <h3>Shabu-Shabu</h3>
+        <p class="price">144.000 VNĐ <del>160.000 VNĐ</del></p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+
+      <div class="food-card">
+        <img src="img/Ramen.jpg" alt="Ramen">
+        <span class="discount">-20%</span>
+        <h3>Ramen</h3>
+        <p class="price">124.000 VNĐ <del>155.000 VNĐ</del></p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+
+      <div class="food-card">
+        <img src="img/Tonkatsu.jpg" alt="Tonkatsu">
+        <span class="discount">-15%</span>
+        <h3>Tonkatsu</h3>
+        <p class="price">144.500 VNĐ <del>170.000 VNĐ</del></p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+
+      <div class="food-card">
+        <img src="img/UnagiDon.jpg" alt="Unagi Don">
+        <span class="discount">-10%</span>
+        <h3>Unagi Don</h3>
+        <p class="price">166.500 VNĐ <del>185.000 VNĐ</del></p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+    </div>
+  </section>
+  
+  <!--Menu-->
+  <section id="menu" class="menu-section">
+    <h2>Thực đơn</h2>
+    <div class="menu-grid">
+      <div class="card">
+        <img src="img/Bibimbap.jpg" alt="Bibimbap">
+        <h3>Bibimbap</h3>
+        <p>75.000 VNĐ</p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+
+      <div class="card">
+        <img src="img/ChankoNabe.jpg" alt="ChankoNabe">
+        <h3>Chanko Nabe</h3>
+        <p>85.000 VNĐ</p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+
+      <div class="card">
+        <img src="img/DaifukuMochi.jpg" alt="DaifukuMochi">
+        <h3>Daifuku Mochi</h3>
+        <p>55.000 VNĐ</p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+
+      <div class="card">
+        <img src="img/DonburiChiken.jpg" alt="DonburiChiken">
+        <h3>Donburi Gà</h3>
+        <p>75.000 VNĐ</p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+
+      <div class="card">
+        <img src="img/Dorayaki.jpg" alt="Dorayaki">
+        <h3>Dorayaki</h3>
+        <p>65.000 VNĐ</p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+
+      <div class="card">
+        <img src="img/DorayakiIcremMatcha.jpg" alt="DorayakiIcremMatcha">
+        <h3>Dorayaki Kem Matcha</h3>
+        <p>75.000 VNĐ</p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+
+      <div class="card">
+        <img src="img/GunkanMaki.jpg" alt="Gunkan Maki">
+        <h3>Gunkan Maki</h3>
+        <p>95.000 VNĐ</p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+
+      <div class="card">
+        <img src="img/Kushikatsu.jpg" alt="Kushikatsu">
+        <h3>Kushikatsu</h3>
+        <p>95.000 VNĐ</p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+
+      <div class="card">
+        <img src="img/NigiriShushi.jpg" alt="Nigiri Sushi">
+        <h3>Nigiri Sushi</h3>
+        <p>105.000 VNĐ</p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+
+      <div class="card">
+        <img src="img/Oden.jpg" alt="Oden">
+        <h3>Oden</h3>
+        <p>195.000 VNĐ</p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+
+      <div class="card">
+        <img src="img/SobaCool.jpg" alt="Soba Cool">
+        <h3>Soba Cool</h3>
+        <p>145.000 VNĐ</p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+
+      <div class="card">
+        <img src="img/UnagiDon.jpg" alt="Unagi Don">
+        <h3>Unagi Don</h3>
+        <p>85.000 VNĐ</p>
+        <button class="btn">Thêm vào giỏ hàng</button>
+      </div>
+    </div>
+  </section>
+
+  <!--About-->
+  <section id="introduce" class="about">
+    <h2>Giới thiệu về SushiFood</h2>
+    <p>SushiFood là nhà hàng chuyên cung cấp các món ăn Nhật Bản chất lượng cao, được chế biến từ nguyên liệu tươi ngon và công thức truyền thống.</p>
+    <p>Chúng tôi cam kết mang đến cho thực khách những trải nghiệm ẩm thực tuyệt vời nhất.</p>
+  </section>
+
+  <!--Statistics-->
+  <section class="stats">
+    <div class="stat-item">
+      <img src="img/store.jpg" alt="Cửa hàng">
+      <i class="material-icons">store</i>
+      <h3>10</h3>
+      <p>Chi nhánh</p>
+    </div>
+
+    <div class="stat-item">
+      <img src="img/client.png" alt="Khách hàng">
+      <i class="material-icons">people</i>
+      <h3>1000+</h3>
+      <p>Khách hàng</p>
+    </div>
+
+    <div class="stat-item">
+      <img src="img/staff.jpg" alt="Nhân viên">
+      <i class="material-symbols-outlined">person_apron</i>
+      <h3>50+</h3>
+      <p>Nhân viên</p>
+    </div>
+
+    <div class="stat-item">
+      <img src="img/evaluate.png" alt="Đánh giá">
+      <i class="material-icons">star</i>
+      <h3>4.5</h3>
+      <p>Đánh giá trung bình</p>
+    </div>
+  </section>
+
+  <!--Blog/News-->
+  <section id="blog" class="blog">
+    <h2>Tin tức & Cập nhật</h2>
+    <div class="blog-grid">
+      <div class="blog-card">
+        <img src="img/Okonomiyaki.jpg" alt="Okonomiyaki">
+        <div class="blog-info">
+          <span class="date">23/03/2025</span>
+          <h3>Okonomiyaki - Bánh xèo Nhật Bản</h3>
+          <p>Là món bánh xèo mặn đặc trưng của Nhật Bản, nổi tiếng với hương vị đậm đà và khả năng tùy biến nguyên liệu theo sở thích. </p>
+          <a href="#">Đọc thêm</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <img src="img/Onigiri.jpg" alt="Onigiri">
+        <div class="blog-info">
+          <span class="date">14/04/2025</span>
+          <h3>Onigiri - Cơm nắm Nhật Bản</h3>
+          <p>Đây là món cơm nắm truyền thống của Nhật Bản, vừa đơn giản vừa mang đậm nét văn hóa ẩm thực xứ Phù Tang.</p>
+          <a href="#">Đọc thêm</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <img src="img/Ramen.jpg" alt="Ramen">
+        <div class="blog-info">
+          <span class="date">16/07/2025</span>
+          <h3>Ramen - Mì Nhật Bản</h3>
+          <p>Ramen là một trong những món ăn quốc dân của Nhật Bản, nổi tiếng với sự đa dạng về hương vị, cách chế biến và văn hóa thưởng thức.</p>
+          <a href="#">Đọc thêm</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Testimonials-->
+<section class="testimonials">
+  <h2>Phản hồi của khách hàng</h2>
+  <div class="testimonial">
+    <p>"Món ăn ở đây thật tuyệt vời! Tôi đã có một trải nghiệm ẩm thực đáng nhớ."</p>
+    <span>- Anh Minh</span>
+  </div>
+  <div class="testimonial">
+    <p>"Dịch vụ nhanh chóng và thân thiện. Tôi sẽ quay lại!"</p>
+    <span>- Chi Mai</span>
+  </div>
+  <div class="testimonial">
+    <p>"SushiFood là nơi lý tưởng để thưởng thức ẩm thực Nhật Bản."</p>
+    <span>- Anh Huy</span>
+  </div>
+
+  <div class="testimonial">
+    <p>"Không gian đẹp, phục vụ nhiệt tình, giá hợp lý."</p>
+    <span>- Chị Hoa</span>
+  </div>
+</section>
+
+<!--Contact-->
+<section id="contact" class="contact">
+  <h2>Liên hệ với chúng tôi</h2>
+  <form>
+    <input type="text" placeholder="Họ và tên" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Lời nhắn" required></textarea>
+    <button type="submit">Gửi</button>
+  </form>
+</section>
+
+<!--Footer-->
+<footer>
+  <p>&copy; 2025 SushiFood. All Rights Reserved.</p>
+  <div class="social">
+    <i class="material-icons">facebook</i>
+    <i class="material-icons">gmail</i>
+  </div>
+</footer>
+</body>
+</html>
