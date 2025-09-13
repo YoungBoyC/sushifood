@@ -25,7 +25,7 @@ header .logo{
     gap:10px;
 }
 
-header  .logo-text{
+header .logo-text{
     font-size:25px;
     font-weight:bold;
 }
@@ -142,12 +142,12 @@ header .search-cart i:hover{
     color:white;
     border-radius:50px;
     text-decoration:none;
+    transition:background-color 0.3 ease;
 }
 
 .hero .btn:hover{
     background:#ff9800;
     color:#111;
-    transform:translateY(-3px);
 }
 
 /*Menu*/
@@ -743,4 +743,43 @@ footer{
     color:#ffcc99;
 }
 
+
+/*Scroll to TopBtn*/
+#scrolltotopbtn{
+    position:fixed;
+    bottom:30px;
+    right: 30px;
+    z-index:999;
+    opacity:0;
+    pointer-events: none;
+    transition:opacity 0.3 esae;
+}
+
+#scrolltotopbtn.show{
+    opacity: 1;
+    pointer-events:auto;
+}
+
+#scroll{
+    width: 50px;
+    height:50px;
+    background-color:#c53131;
+    color:white;
+    border:none;
+    border-radius:50%;
+    font-size:24px;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:background-color 0.3s ease;
+}
+
+#scroll:hover{
+    background-color:#a82323;
+}
+
+#scroll i{
+    font-size:24px;
+}
 
