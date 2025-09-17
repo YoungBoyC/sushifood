@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SushiFood</title>
     <link rel="stylesheet" href="styless.css">
-    <script src="https://kit.fontawesome.com/086c433d82.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css">
+    
+    <!--font từ Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -23,7 +25,22 @@
           <ul>
               <li><a href="#home">Trang Chủ</a></li>
               <li><a href="#featured-food">Nổi bật</a></li>
-              <li><a href="#menu">Thực đơn</a></li>
+              <li class="has-submenu">
+                <a href="#menu">Thực đơn</a>
+                <ul class="submenu-list">
+                  <li class="has-submenu">
+                    <a href="#main-course">Món chính</a>
+                    <ul class="vertical-submenu">
+                      <li><a href="#sumo-hotpot">Lẩu Sumo</a></li>
+                      <li><a href="#mixed-rice">Cơm trộn</a></li>
+                      <li><a href="#rice-bowl">Cơm tô</a></li>
+                      <li><a href="#noodles">Mì</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#Sushi">Sushi</a></li>
+                  <li><a href="#dessert">Tráng miệng</a></li>
+                </ul>
+              </li>
               <li><a href="#introduce">Giới thiệu</a></li>
               <li><a href="#blog">Tin tức</a></li>
               <li><a href="#contact">Liên hệ</a></li>

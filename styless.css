@@ -46,7 +46,30 @@ header .header-right{
 header .nav ul{
     list-style:none;
     display:flex;
-    gap:20px;
+    gap:30px;
+}
+
+header .nav li{
+    position:relative;
+}
+
+header .nav .submenu-list {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color: #a0522d;
+    padding:10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    z-index: 1000;
+    gap:30px;
+    flex-direction:row;
+    white-space: nowrap;
+} 
+
+header .nav .has-submenu:hover > .submenu-list{
+    display: flex;
 }
 
 header .nav a{
@@ -57,6 +80,23 @@ header .nav a{
 
 header .nav a:hover{
     color: #ff9800;
+}
+
+header .nav .submenu-list>li>a{
+    font-family: 'noto sans',serif;
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(29, 22, 10);
+    padding:10px 20px;
+    display: block;
+    transition:background-color 0.3s ease;
+}
+
+header .nav .submenu-list>li>a:hover{
+    background-color: #c53131;
+    border-radius:10px;
+    color:white;
+    text-shadow: 4px 16px 20px rgb(0, 0, 0);
 }
 
 header .search-cart{
